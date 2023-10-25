@@ -31,7 +31,15 @@
 	
 	<!-- Stylesheet -->
 	@include('front.includes.header-css')
-	@vite(['resources/css/custom.css', 'resources/css/style.css'])
+
+	@vite([
+		   'resources/css/app.css',
+	       'resources/css/custom.css', 
+		   'resources/css/style.css',
+		   'resources/css/app.scss',
+		   'resources/js/app.js',
+           'resources/js/main.js',
+		])
 	
 </head>
 <body id="body">
