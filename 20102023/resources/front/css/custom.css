@@ -216,32 +216,34 @@ footer .section-title h4 {font-size: 30px;}
     .mobile-logo img { height: 70px; }
 }
 @media (max-width:767px) {
-    .banner-sect {background-position: 70%;padding-top: 130px;}
+    .container {padding-left: 30px; padding-right: 30px;}
+    .banner-sect {background-position: 70%;padding-top: 150px;}
     .main-ttl { font-size: 45px; }
     .main-ttl span { display: block; font-size: 65px; }
     .sub-ttl { font-size: 30px; }
-    .banner-btn { position: absolute; bottom: 1rem; left: 0; right: 0; }
+    .banner-btn { position: absolute; bottom: 1rem; left: 30px; right: 30px}
     .banner-btn a img {height: 38px;}
     .welcome-sect { padding-bottom: 350px; }
-    .pince {  width: 480px;  left: -240px;    bottom: 100px;}
+    .pince {  width: 515px;  left: -240px;    bottom: 70px;}
     .second-row { margin-top: -2rem; }
     .second-row .section-title { margin: -2rem 2rem; }
-    .third-row { margin: 4rem 1.3rem 0; }
+    .third-row { margin: 4rem 1.9rem 0; }
     .section-title h2 { font-size: 44px;line-height: 1.1; }
     .big-font h2 { font-size: 62px; }
     .section-title h3 { font-size: 30px;line-height: 1.1; }
     .video-sect iframe { height: 250px; }
+    .video-sect .section-title {text-align: left; padding: 0 30px; margin-bottom: -2rem}
     .address-sect .section-title h3, footer .section-title h3 { font-size: 42px; }
     .address-sect .section-title h3 span { display: block; }
     .section-title .link, .address-sect  .section-title h4 { font-size: 18px; }
-    .con-img { margin-top: -.8rem;margin-right: -20px; }
+    .con-img { margin-top: -.8rem;margin-right: -30px; }
     footer .section-title h4 { font-size: 18px; }
     .footer-img::after { height: auto; }
     .ring-sect { padding-bottom: 80px }
     .ring-sect::after { height: 42% }
     .product-slider {margin-left: 0px;}
     .product-block:nth-child(2), .product-block:nth-child(3n) {margin-top: 0}
-    .product-block { margin-right: -20px; font-size: 18px;font-family: var(--title-font);}
+    .product-block { margin-right: -30px; font-size: 18px;font-family: var(--title-font);}
     .product-ttl { font-size: 26px;margin:-1.5rem 20px 0; }
     .product-block:nth-child(2n) { margin-top: 0 }
     .product-block p {margin: 10px 20px 0; letter-spacing: 1px;}
